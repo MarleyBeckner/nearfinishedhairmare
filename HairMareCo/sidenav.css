@@ -1,0 +1,274 @@
+body{
+    margin:0;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #A5E9CC;
+  }
+  
+  .navbar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight:500;
+    margin-left: 40px;
+  }
+
+.navbar a.logo{
+    float: left;
+    font-size: 2em;
+  color: black;
+  user-select: none;
+  font-family: Chalkduster;
+  padding: 0;
+  margin: 0;
+  
+}
+.navbar a:hover {
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+  }
+
+  .navbar .square{
+    width: 60px;
+    height: 20px;
+    background:transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: .75rem;
+    color:black;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .5s;
+  }
+  .navbar .square. a:hover{
+    background-color: white;
+  }
+
+
+.box{
+    padding: 200px; 
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: Marker Felt;
+   margin-top: 500px;
+}
+.box2{ 
+    float: left;
+    font-family: Marker Felt;
+   margin-top: 300px;
+}
+.box3{ 
+    padding: 10px; 
+    float: left;
+    background-color: #A5E9CC;
+    font-family: Marker Felt;
+   margin-top: 10px;
+}
+.box3 .navbar a{
+    float: right
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight:500;
+    margin-left: 40px;
+  }
+}
+.box4{ 
+    padding: 10px; 
+    float: left;
+    background-color: #A5E9CC;
+    font-family: Marker Felt;
+   margin-top: 500px;
+}
+.box4 .navbar a{
+    float: right
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight:500;
+    margin-left: 500px;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black; 
+    padding: 5px; 
+  }
+  img {
+    border-style: solid;
+    border-width: 2px;
+  }
+  .header{
+    text-align: center;
+  }
+  .headerP{
+        align-items: center;
+        width: 300px;
+         border: 15px solid #A5E9CC;
+        padding: 50px;
+        margin: 20px;
+        background-color: #A5E9CC;
+  }
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #A5E9CC;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .thing3{
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    background:transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: .75rem;
+    color:black;
+    font-weight: 500;
+    transition: .5s;
+    margin-left: 1px;
+  }
+  .header{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: auto;
+   
+  }
+  
+  .video{
+    align-items: center;
+    margin: auto;
+  }
+  
+  .box5{
+    padding: 50px; 
+    
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+   margin-top: 100px;
+   width: 500px;
+   margin: auto;
+
+}
+.post{
+    height: 400px;
+    length: 400px;
+}
+body{
+ background-color: #A5E9CC;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .thing2{
+    width: 250px;
+    height: 65px;
+    background:transparent;
+    border: 2px solid #000000;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: .75rem;
+    color:black;
+    font-weight: 500;
+    transition: .5s;
+    margin: auto;
+    margin-top: 200px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  .headerP{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+  }
+  .box6{
+    padding: 50px; 
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+   margin-top: 100px;
+   width: 1000px;
+   margin: auto;
+  }
+  
+  .header2{
+    margin-right: 250px;
+  }
+
+  .container{
+    margin: auto;
+    width: 200px;
+  }
